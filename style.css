@@ -1,10 +1,20 @@
-.header {
-	border-style: solid;
-	border-width: 2px
+#header {
+	margin-right: 30px;
 	font-color: #222;
-	font-size: small;
+	font-size: 18px;
 	font-family: arial, sans-serif;
 	display: flex;
 	justify-content: flex-end;
-	background-color: blue;
+	align-items: center;
+}
+.toplinks {
+margin: 10px;
+
+}
+#signin {
+	margin-left: 15px;
+}
+
+#menu {
+	margin-left: 15px;
 }
