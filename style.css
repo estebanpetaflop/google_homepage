@@ -20,25 +20,42 @@
 }
 
 #section {
+	position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
 	align-items: center;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	border: solid black;
 }
+#footer {
+	border: black side;
+	position: fixed;
+	position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+
 
 #footer .bottomlinks {
-	font-family: arial, sans-serif;
+	font-size: 12px;
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: flex-start;
+	font-family: arial, sans-serif;
 	border: solid black;
 	margin: 10px ;
-	flex-direction: row;
+	align-items: baseline;
+
 }
 
 #span {
 	display: flex;
 	justify-content: flex-end;
-
 
 }
