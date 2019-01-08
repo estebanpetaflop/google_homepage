@@ -1,7 +1,7 @@
 #header {
 	margin-right: 30px;
 	font-color: #222;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: arial, sans-serif;
 	display: flex;
 	justify-content: flex-end;
@@ -23,13 +23,12 @@
 	position: relative;
    margin-left: auto;
    margin-right: auto;
-   margin-top: auto;
-   margin-bottom: auto;
+   margin-top: 200px;
+   margin-bottom: 200px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
-	border: solid black;
 }
 #footer {
 	display: flex;
@@ -71,4 +70,38 @@
 	justify-content: flex-start;
 	align-items: center;
 	/* border: solid black; */
+}
+
+#bar {
+	width: 500px;
+	height: 50px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+
+}
+
+.topnav input:focus {
+	box-shadow: none;
+}
+
+.topnav input {
+	width: 400px;
+	height: 40px;
+	display: inline-block;
+	margin: auto;
+	justify-content: center;
+	outline-color: white;
+
+}
+
+.button {
+	font-color: rgb(79, 78, 80);
+	font-weight: bold;
+	background-color: rgb(196, 194, 191);
+	font-size: 12px;
+	display: flex;
+	justify-content: space-around;
 }
