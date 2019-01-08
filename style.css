@@ -8,7 +8,7 @@
 	align-items: center;
 }
 .toplinks {
-margin: 10px;
+	margin: 10px;
 
 }
 #signin {
@@ -17,4 +17,28 @@ margin: 10px;
 
 #menu {
 	margin-left: 15px;
+}
+
+#section {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	border: solid black;
+}
+
+#footer .bottomlinks {
+	font-family: arial, sans-serif;
+	display: flex;
+	justify-content: flex-start;
+	border: solid black;
+	margin: 10px ;
+	flex-direction: row;
+}
+
+#span {
+	display: flex;
+	justify-content: flex-end;
+
+
 }
